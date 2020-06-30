@@ -1,0 +1,162 @@
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;  
+}
+/*  Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+/*  Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+h1, h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+
+/* Heading*/
+.big-heading{
+  font-size: 3.0rem;
+    line-height: 1.5;
+}
+.section-heading{
+font-size: 3rem;
+line-height: 1.5;
+}
+
+.navbar{
+padding:0 0 4.5rem ;
+
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat-Light";
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.img-title{
+  position: absolute;
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+/* Features*/
+#features{
+   
+position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+p{
+  font-size: 1rem;
+  color:#8f8f8f;
+ 
+}
+.icons{
+  color: #ef8172;
+  font-size: 7.0rem;
+  margin-bottom: 1rem;
+}
+#i1:hover{
+  color: green;
+}
+#i2:hover{
+  color:#ff4c68;
+}
+
+#i3:hover{
+color: red;
+}
+.feature-tit{ 
+  font-size: 1.5rem;
+}
+.box-feature{
+  padding : 4.5%;
+}
+
+
+/* Testemunha section */
+#testimonials{ 
+  background-color:#ef8172 ;
+}
+.testimonials-text{
+      font-size: 3rem;
+      line-height: 1.5;
+}
+.testemunha-imagem{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+      padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-col {
+padding: 3% 2%;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .img-title{
+    position: static;
+    transform: rotate(0);
+    
+  }
+
+}/* Call to Action */
+
+/* Footer */
+.redes-sociais{
+  font-size: 2.4rem;
+  margin: 20px 10px;
+}
+.redes-sociais:hover {
+  color: #ff4c68;
+
+}   
+#h3-cta{
+  color: #FFF;
+  font-size: 2.5rem;
+}
